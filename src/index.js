@@ -47,7 +47,7 @@
      * get all functions from service
      * @return {[type]} [description]
      */
-    EasySoap.prototype.getAllFunctions = function () {
+    EasySoap.prototype.getAllFunctions = await function () {
         return wsdlrdr.getAllFunctions(this._params, this._opts);
     };
 
